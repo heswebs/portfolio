@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Hongde He's Portfolio Website",
   "main": "index.js",
+  "homepage": "https://heswebs.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Hongde He",
   "license": "ISC"
